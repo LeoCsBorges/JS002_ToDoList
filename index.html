@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Project ToDoList</title>
+</head>
+<body>
+    <div class="paper lines wrapper">
+        <header id="header">
+            <h1>TO DO LIST</h1>
+        </header>
+            <div id="text">
+                <div id="menu">
+                    <div class="action" onclick="inserir()"> . Insert item</div>
+                    <div class="action" onclick="deletar()"> . Delete item</div>
+                    <div class="action" onclick="editar()">  . Edit item</div>
+                    <div class="action" onclick="checkar()"> . Check Item</div>
+                    <div class="action" onclick="apagar()">  . Erase list</div>  
+                    <br><br>
+                </div>
+                <div id="output">
+                    <p>Insira sua lista aqui ...</p>
+                </div>    
+            </div>
+        <div id="aside">
+            <div class="hole"></div>
+            <div class="hole"></div>
+            <div class="hole"></div>
+            <div class="hole"></div>
+        </div>  
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
